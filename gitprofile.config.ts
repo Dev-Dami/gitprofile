@@ -161,11 +161,11 @@ const CONFIG = {
   },
 
   // Optional Footer. Supports plain text or HTML.
-  footer: `Made with <a 
+  footer: `Made by <a 
       class="text-primary" href="https://github.com/Dev-Dami"
       target="_blank"
       rel="noreferrer"
-    >GitProfile</a> and ❤️`,
+    >Damilare</a> and ❤️`,
 
   enablePWA: true,
 };
