@@ -57,7 +57,7 @@ const CONFIG = {
     dribbble: '',
     behance: '',
     medium: '',
-    dev: 'dev-dami',
+    dev: 'devdami',
     stackoverflow: '', // example: '1/jeff-atwood'
     discord: '',
     telegram: '',
