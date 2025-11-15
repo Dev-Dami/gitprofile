@@ -63,7 +63,7 @@ const CONFIG = {
     email: 'damiade5banjo@gmail.com',
   },
   resume: {
-    fileUrl: './src/assets/damicv.pdf', // Empty fileUrl will hide the `Download Resume` button.
+    fileUrl: '', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
     'Go',
