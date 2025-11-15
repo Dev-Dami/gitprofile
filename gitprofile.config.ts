@@ -16,8 +16,8 @@ const CONFIG = {
       header: 'Github Projects',
       mode: 'automatic', // Mode can be: 'automatic' or 'manual'
       automatic: {
-        sortBy: 'stars', // Sort projects by 'stars' or 'updated'
-        limit: 4, // How many projects to display.
+        sortBy: 'updated', // Sort projects by 'stars' or 'updated'
+        limit: 9, // How many projects to display.
         exclude: {
           forks: false, // Forked projects will not be displayed if set to true.
           projects: [], // These projects will not be displayed. example: ['arifszn/my-project1', 'arifszn/my-project2']
@@ -25,10 +25,7 @@ const CONFIG = {
       },
       manual: {
         // Properties for manually specifying projects
-        projects: [
-          'Dev-Dami/Image-Recognition-App',
-          'Dev-Dami/C-project-Text-Editor',
-        ], // List of repository names to display. example: ['arifszn/my-project1', 'arifszn/my-project2']
+        projects: [], // List of repository names to display. example: ['arifszn/my-project1', 'arifszn/my-project2']
       },
     },
     external: {
@@ -45,7 +42,7 @@ const CONFIG = {
   },
   social: {
     linkedin: 'damilare-osibanjo',
-    x: '',
+    x: 'garpfisher',
     mastodon: '',
     researchGate: '',
     facebook: '',
@@ -61,13 +58,12 @@ const CONFIG = {
     stackoverflow: '', // example: '1/jeff-atwood'
     discord: '',
     telegram: '',
-    website: 'https://developerdami.netlify.app',
+    website: 'https://dev-dami.github.io/gitprofile',
     phone: '+234 9043349743',
     email: 'damiade5banjo@gmail.com',
   },
   resume: {
-    fileUrl:
-      'https://responsive-fish.static.domains/53ab7914d43ab17eeacae0cc06c0bbcf.pdf', // Empty fileUrl will hide the `Download Resume` button.
+    fileUrl: '/assets/damicv.pdf', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
     'Go',
@@ -76,12 +72,14 @@ const CONFIG = {
     'React.js',
     'Node.js',
     'Express',
-    'Sqlite',
     'Git',
     'Docker',
     'CSS',
     'Typescript',
     'Tailwind',
+    'C',
+    'Rust',
+    'Python',
   ],
   experiences: [
     {
@@ -161,7 +159,7 @@ const CONFIG = {
   },
 
   // Optional Footer. Supports plain text or HTML.
-  footer: `Made by <a 
+  footer: `Made by <a
       class="text-primary" href="https://github.com/Dev-Dami"
       target="_blank"
       rel="noreferrer"
