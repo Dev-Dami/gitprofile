@@ -63,7 +63,7 @@ const CONFIG = {
     email: 'damiade5banjo@gmail.com',
   },
   resume: {
-    fileUrl: '/assets/damicv.pdf', // Empty fileUrl will hide the `Download Resume` button.
+    fileUrl: './src/assets/damicv.pdf', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
     'Go',
@@ -72,9 +72,6 @@ const CONFIG = {
     'React.js',
     'Node.js',
     'Express',
-    'Git',
-    'Docker',
-    'CSS',
     'Typescript',
     'Tailwind',
     'C',
@@ -132,7 +129,7 @@ const CONFIG = {
   // Track visitor interaction and behavior. https://www.hotjar.com
   hotjar: { id: '', snippetVersion: 6 },
   themeConfig: {
-    defaultTheme: 'forest',
+    defaultTheme: 'dark',
 
     // Hides the switch in the navbar
     // Useful if you want to support a single color mode
